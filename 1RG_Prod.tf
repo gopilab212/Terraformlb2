@@ -2,7 +2,7 @@
 provider "azurerm" { }
 
 # Create a resource group
-resource "azurerm_resource_group" "network" {
+resource "azurerm_resource_group" "test" {
   name     = "production"
   location = "West US"
 }
