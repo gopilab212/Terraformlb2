@@ -1,0 +1,1 @@
+az resource list -g hoylake -o json >hoylakejson.txt - then convert into csv output saved in prod-outputs\hoylake_prod_results.csv
